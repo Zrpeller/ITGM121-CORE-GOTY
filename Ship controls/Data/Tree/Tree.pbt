@@ -20,6 +20,8 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 10856718663467263867
+  ChildIds: 10621075302376945030
+  ChildIds: 9243580225732651751
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,6 +31,751 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9243580225732651751
+  Name: "Sky Nighttime 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 17455215418379071199
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9243580225732651751
+    SubobjectId: 13664821734768608629
+    InstanceId: 8391665785824934346
+    TemplateId: 6195952674162360525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 17455215418379071199
+  Name: "Skylight"
+  Transform {
+    Location {
+      X: 250
+      Y: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9243580225732651751
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Index"
+      Int: 12
+    }
+    Overrides {
+      Name: "bp:Ambient Image"
+      Enum {
+        Value: "mc:eambientcubemapssmall:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11515840070784317904
+    }
+  }
+  InstanceHistory {
+    SelfId: 17455215418379071199
+    SubobjectId: 14977169413056414029
+    InstanceId: 8391665785824934346
+    TemplateId: 6195952674162360525
+  }
+}
+Objects {
+  Id: 10621075302376945030
+  Name: "Space with planets"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6375578605434908970
+  ChildIds: 16826359394931400350
+  ChildIds: 10655069882530100235
+  ChildIds: 18281697446999346257
+  ChildIds: 13383323854157825613
+  ChildIds: 11448078607520559733
+  ChildIds: 7878869820431602307
+  ChildIds: 7207523191710350588
+  ChildIds: 16188988835117522802
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10621075302376945030
+    SubobjectId: 5558012096961636591
+    InstanceId: 748403934867465531
+    TemplateId: 6538753822551400695
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16188988835117522802
+  Name: "Moon"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -22.8434448
+      Yaw: -76.0155
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Moon Appearance"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Appearance"
+      Int: 1
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Tint"
+      Color {
+        R: 3
+        G: 2
+        B: 1.12634695
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Scale"
+      Float: 1.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1353607577508895962
+    }
+  }
+  InstanceHistory {
+    SelfId: 16188988835117522802
+    SubobjectId: 4534406472684208667
+    InstanceId: 748403934867465531
+    TemplateId: 6538753822551400695
+  }
+}
+Objects {
+  Id: 7207523191710350588
+  Name: "Planet"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -25.3030014
+      Yaw: -62.5814629
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Planet Appearance"
+      Enum {
+        Value: "mc:eplanetaryappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 6
+    }
+    Overrides {
+      Name: "bp:Cloud Appearance"
+      Enum {
+        Value: "mc:eplanetcloudappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cloud Scale"
+      Vector {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Color"
+      Color {
+        R: 1
+        G: 0.539205313
+        B: 0.51
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 18441810659176357459
+    }
+  }
+  InstanceHistory {
+    SelfId: 7207523191710350588
+    SubobjectId: 13421255878844752277
+    InstanceId: 748403934867465531
+    TemplateId: 6538753822551400695
+  }
+}
+Objects {
+  Id: 7878869820431602307
+  Name: "Moon"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -33.9227867
+      Yaw: 143.455612
+      Roll: -14.8456306
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Moon Appearance"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Appearance"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Tint"
+      Color {
+        R: 3
+        G: 2
+        B: 1.12634695
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Scale"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 0.414569497
+        B: 0.32
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Moon Rotation"
+      Vector {
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Transition Offset"
+      Float: 0.3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1353607577508895962
+    }
+  }
+  InstanceHistory {
+    SelfId: 7878869820431602307
+    SubobjectId: 10290385445252436925
+    InstanceId: 2612089153492981073
+    TemplateId: 7722655333874015727
+  }
+}
+Objects {
+  Id: 11448078607520559733
+  Name: "Moon"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -22.8434372
+      Yaw: -76.0156
+      Roll: 4.63217366e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Moon Appearance"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Appearance"
+      Int: 1
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Tint"
+      Color {
+        R: 3
+        G: 2
+        B: 1.12634695
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Scale"
+      Float: 1.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1353607577508895962
+    }
+  }
+  InstanceHistory {
+    SelfId: 11448078607520559733
+    SubobjectId: 9026950365928682315
+    InstanceId: 2612089153492981073
+    TemplateId: 7722655333874015727
+  }
+}
+Objects {
+  Id: 13383323854157825613
+  Name: "Nebula"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 64.9999084
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+  }
+  InstanceHistory {
+    SelfId: 13383323854157825613
+    SubobjectId: 6494906934722217843
+    InstanceId: 2612089153492981073
+    TemplateId: 7722655333874015727
+  }
+}
+Objects {
+  Id: 18281697446999346257
+  Name: "Planet"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -25.3030224
+      Yaw: -62.5814667
+      Roll: -2.83313148e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Planet Appearance"
+      Enum {
+        Value: "mc:eplanetaryappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 6
+    }
+    Overrides {
+      Name: "bp:Cloud Appearance"
+      Enum {
+        Value: "mc:eplanetcloudappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cloud Scale"
+      Vector {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Color"
+      Color {
+        R: 1
+        G: 0.539205313
+        B: 0.51
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 18441810659176357459
+    }
+  }
+  InstanceHistory {
+    SelfId: 18281697446999346257
+    SubobjectId: 2174173908629966191
+    InstanceId: 2612089153492981073
+    TemplateId: 7722655333874015727
+  }
+}
+Objects {
+  Id: 10655069882530100235
+  Name: "Sun Light"
+  Transform {
+    Location {
+      X: -50
+      Z: 300
+    }
+    Rotation {
+      Pitch: -38.9736252
+      Yaw: 8.81246
+      Roll: 11.6891203
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Light Color"
+      Color {
+        R: 1
+        G: 0.36
+        B: 0.716026306
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Scale"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Threshold"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Tint"
+      Color {
+        R: 1
+        G: 0.779602647
+        B: 0.480000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Use Temperature"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Sun Disc Color"
+      Color {
+        R: 50
+        G: 1
+        B: 2.00000095
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Shape"
+      Int: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16910278292812118833
+    }
+  }
+  InstanceHistory {
+    SelfId: 10655069882530100235
+    SubobjectId: 8090713207782208821
+    InstanceId: 2612089153492981073
+    TemplateId: 7722655333874015727
+  }
+}
+Objects {
+  Id: 16826359394931400350
+  Name: "Star Dome"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Star Brightness"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Twinkle Mask Speed"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Twinkle Mask"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Star Appearance"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Star Tiling Density"
+      Float: 6
+    }
+    Overrides {
+      Name: "bp:Real Stars"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12344193518355455075
+    }
+  }
+  InstanceHistory {
+    SelfId: 16826359394931400350
+    SubobjectId: 4018505556776158199
+    InstanceId: 748403934867465531
+    TemplateId: 6538753822551400695
+  }
+}
+Objects {
+  Id: 6375578605434908970
+  Name: "Skylight"
+  Transform {
+    Location {
+      X: 250
+      Y: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10621075302376945030
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Index"
+      Int: 12
+    }
+    Overrides {
+      Name: "bp:Ambient Image"
+      Enum {
+        Value: "mc:eambientcubemapssmall:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11515840070784317904
+    }
+  }
+  InstanceHistory {
+    SelfId: 6375578605434908970
+    SubobjectId: 9672957725786893379
+    InstanceId: 748403934867465531
+    TemplateId: 6538753822551400695
   }
 }
 Objects {

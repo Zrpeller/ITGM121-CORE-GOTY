@@ -1,10 +1,28 @@
 Assets {
+  Id: 18441810659176357459
+  Name: "Planet"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Planet"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
+  }
+}
+Assets {
+  Id: 12344193518355455075
+  Name: "Star Dome"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_StarDome"
   }
 }
 Assets {
@@ -32,5 +50,23 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 2617361319805279588
+  Name: "Nebula"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Nebula"
+  }
+}
+Assets {
+  Id: 1353607577508895962
+  Name: "Moon"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Moon"
   }
 }
