@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15164588308919377776
+  Name: "Terrain - Moss"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-moss_001_wa"
+  }
+}
+Assets {
   Id: 12344193518355455075
   Name: "Star Dome"
   PlatformAssetType: 6
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Nebula"
+  }
+}
+Assets {
+  Id: 1456545084299186417
+  Name: "Tech Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_002_uv"
   }
 }
 Assets {

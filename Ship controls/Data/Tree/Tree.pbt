@@ -22,6 +22,8 @@ Objects {
   ChildIds: 10856718663467263867
   ChildIds: 10621075302376945030
   ChildIds: 9243580225732651751
+  ChildIds: 2797886669545239337
+  ChildIds: 6326833770536074051
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +33,66 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6326833770536074051
+  Name: "Skylight"
+  Transform {
+    Location {
+      Z: 9600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11515840070784317904
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 2797886669545239337
+  Name: "Terrain"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 15164588308919377776
+    }
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
   }
 }
 Objects {
@@ -49,6 +111,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 17455215418379071199
+  ChildIds: 12757576892538652040
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -69,12 +132,43 @@ Objects {
   }
 }
 Objects {
+  Id: 12757576892538652040
+  Name: "Star Dome"
+  Transform {
+    Location {
+      Z: 10200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9243580225732651751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12344193518355455075
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 17455215418379071199
   Name: "Skylight"
   Transform {
     Location {
       X: 250
       Y: 300
+      Z: 10200
     }
     Rotation {
     }
@@ -159,6 +253,7 @@ Objects {
   Name: "Moon"
   Transform {
     Location {
+      Z: 10200
     }
     Rotation {
       Pitch: -22.8434448
@@ -225,10 +320,11 @@ Objects {
   Name: "Planet"
   Transform {
     Location {
+      Z: 10200
     }
     Rotation {
-      Pitch: -25.3030014
-      Yaw: -62.5814629
+      Pitch: -25.303009
+      Yaw: -62.5814514
     }
     Scale {
       X: 1
@@ -298,11 +394,12 @@ Objects {
   Name: "Moon"
   Transform {
     Location {
+      Z: 10200
     }
     Rotation {
-      Pitch: -33.9227867
+      Pitch: -33.9227905
       Yaw: 143.455612
-      Roll: -14.8456306
+      Roll: -14.8456421
     }
     Scale {
       X: 1
@@ -384,10 +481,11 @@ Objects {
   Name: "Moon"
   Transform {
     Location {
+      Z: 10200
     }
     Rotation {
-      Pitch: -22.8434372
-      Yaw: -76.0156
+      Pitch: -22.8434448
+      Yaw: -76.0155945
       Roll: 4.63217366e-05
     }
     Scale {
@@ -451,6 +549,7 @@ Objects {
   Name: "Nebula"
   Transform {
     Location {
+      Z: 10200
     }
     Rotation {
       Pitch: 64.9999084
@@ -508,11 +607,12 @@ Objects {
   Name: "Planet"
   Transform {
     Location {
+      Z: 10200
     }
     Rotation {
-      Pitch: -25.3030224
-      Yaw: -62.5814667
-      Roll: -2.83313148e-05
+      Pitch: -25.303009
+      Yaw: -62.5814819
+      Roll: -3.05175781e-05
     }
     Scale {
       X: 1
@@ -583,10 +683,10 @@ Objects {
   Transform {
     Location {
       X: -50
-      Z: 300
+      Z: 10500
     }
     Rotation {
-      Pitch: -38.9736252
+      Pitch: -38.9736328
       Yaw: 8.81246
       Roll: 11.6891203
     }
@@ -738,6 +838,7 @@ Objects {
     Location {
       X: 250
       Y: 300
+      Z: 10200
     }
     Rotation {
     }
@@ -814,7 +915,7 @@ Objects {
           Vector {
             X: 50
             Y: -200
-            Z: 100
+            Z: 10300
           }
         }
       }
@@ -840,18 +941,24 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      Z: -50
+      Z: 10150
     }
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 1
+      X: 30.5000057
+      Y: 30.5000057
+      Z: 0.5
     }
   }
   ParentId: 4781671109827199097
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1456545084299186417
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1315,7 +1422,7 @@ Objects {
   Name: "Top Down Camera"
   Transform {
     Location {
-      Z: 500
+      Z: 10700
     }
     Rotation {
     }
@@ -1437,7 +1544,7 @@ Objects {
     Location {
       X: -750
       Y: -200
-      Z: 115
+      Z: 10315
     }
     Rotation {
     }
