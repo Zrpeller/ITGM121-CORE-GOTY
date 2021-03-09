@@ -33,6 +33,10 @@ Objects {
   ChildIds: 2797886669545239337
   ChildIds: 6326833770536074051
   ChildIds: 8233678622391951612
+  ChildIds: 8557627688105086469
+  ChildIds: 6672485127097936274
+  ChildIds: 12629832165240176676
+  ChildIds: 11707878403061727809
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -42,6 +46,203 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11707878403061727809
+  Name: "Cone - Truncated Wide"
+  Transform {
+    Location {
+      X: -600
+      Y: 50
+      Z: 9550
+    }
+    Rotation {
+      Roll: 180
+    }
+    Scale {
+      X: 7.50000048
+      Y: 7.50000048
+      Z: 16.5000114
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1111841862436796177
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10214071179101403338
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12629832165240176676
+  Name: "Cylinder - Rounded"
+  Transform {
+    Location {
+      X: -550
+      Y: 50
+      Z: 9550
+    }
+    Rotation {
+    }
+    Scale {
+      X: 8.5
+      Y: 8.5
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11587180971079199478
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10274761669494782090
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6672485127097936274
+  Name: "Cylinder - Rounded"
+  Transform {
+    Location {
+      X: -550
+      Y: 50
+      Z: 9700
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17256183780660303412
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10274761669494782090
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8557627688105086469
+  Name: "Cone - Truncated Wide"
+  Transform {
+    Location {
+      X: -500
+      Y: 50
+      Z: 10100
+    }
+    Rotation {
+      Roll: 180
+    }
+    Scale {
+      X: 15.7500086
+      Y: 15.7500086
+      Z: 7.25000048
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17256183780660303412
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10214071179101403338
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -80,14 +281,17 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      Z: 9600
+      X: 2050
+      Y: -285.817627
+      Z: 9620.70313
     }
     Rotation {
+      Roll: 55
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 15.7500086
+      Y: 15.7500086
+      Z: 7.25000048
     }
   }
   ParentId: 4781671109827199097
