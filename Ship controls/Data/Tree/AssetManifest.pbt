@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17256183780660303412
+  Name: "Metal Greebles 04"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_greebles_004_uv_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -23,6 +32,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_terrain_rock-moss_001_wa"
+  }
+}
+Assets {
+  Id: 14419789862726078561
+  Name: "Diamond - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_diamond_6_sided_001"
   }
 }
 Assets {
@@ -53,12 +71,30 @@ Assets {
   }
 }
 Assets {
+  Id: 10849893684199181313
+  Name: "Basic Outline"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_outline_basic"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 6349393341932813061
+  Name: "Cylinder - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_test_001"
   }
 }
 Assets {
@@ -86,5 +122,14 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Moon"
+  }
+}
+Assets {
+  Id: 1111841862436796177
+  Name: "Hex Energy Pulse"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_energy_hex_transition_pulse"
   }
 }
