@@ -37,6 +37,9 @@ Objects {
   ChildIds: 6672485127097936274
   ChildIds: 12629832165240176676
   ChildIds: 11707878403061727809
+  ChildIds: 17275680750685253327
+  ChildIds: 18100700470024206393
+  ChildIds: 7836860256094413474
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,6 +49,109 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 7836860256094413474
+  Name: "Health Bar"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1675656989204002660
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Health Bar"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -650
+            Y: 1650
+            Z: 10150
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16330662464982116521
+    }
+  }
+}
+Objects {
+  Id: 18100700470024206393
+  Name: "Sci Fi Turret-1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 712706498764768430
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci Fi Turret-1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 650
+            Y: 1100
+            Z: 10200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 368213624958798697
+    }
+  }
+}
+Objects {
+  Id: 17275680750685253327
+  Name: "Combat Dependencies"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8014650375856875642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Combat Dependencies"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 800
+            Y: 2100
+            Z: 10150
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16586689343668766505
+    }
   }
 }
 Objects {
